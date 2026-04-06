@@ -1,0 +1,163 @@
+1. Initial Dashboard Summary:
+{
+  "summary": {
+    "totalIncome": 10000,
+    "totalExpense": 400,
+    "netBalance": 9600
+  },
+  "categoryWiseTotals": [
+    {
+      "category": "Salary",
+      "type": "INCOME",
+      "total": 10000
+    },
+    {
+      "category": "Groceries",
+      "type": "EXPENSE",
+      "total": 400
+    }
+  ],
+  "recentRecords": [
+    {
+      "id": "cb8d631f-fb0e-40b4-90f9-c7ee95352161",
+      "amount": 200,
+      "type": "EXPENSE",
+      "category": "Groceries",
+      "date": "2026-04-06T13:05:39.654Z",
+      "createdByUserId": "admin-1",
+      "createdAt": "2026-04-06T13:05:39.655Z",
+      "updatedAt": "2026-04-06T13:05:39.655Z"
+    },
+    {
+      "id": "2d753409-e38c-42df-911b-401bf895ae41",
+      "amount": 5000,
+      "type": "INCOME",
+      "category": "Salary",
+      "date": "2026-04-06T13:05:39.639Z",
+      "createdByUserId": "admin-1",
+      "createdAt": "2026-04-06T13:05:39.651Z",
+      "updatedAt": "2026-04-06T13:05:39.651Z"
+    },
+    {
+      "id": "be80c2f7-4553-49f7-8ddb-25c4fdfb9867",
+      "amount": 200,
+      "type": "EXPENSE",
+      "category": "Groceries",
+      "date": "2026-04-06T13:05:28.384Z",
+      "createdByUserId": "admin-1",
+      "createdAt": "2026-04-06T13:05:28.385Z",
+      "updatedAt": "2026-04-06T13:05:28.385Z"
+    },
+    {
+      "id": "2a27cacd-cfab-46a3-bfbb-fbb814b57c4a",
+      "amount": 5000,
+      "type": "INCOME",
+      "category": "Salary",
+      "date": "2026-04-06T13:05:28.372Z",
+      "createdByUserId": "admin-1",
+      "createdAt": "2026-04-06T13:05:28.381Z",
+      "updatedAt": "2026-04-06T13:05:28.381Z"
+    }
+  ]
+}
+
+2. Creating an Income Record:
+{
+  "record": {
+    "id": "b83cf6bd-3dfb-40af-8b20-da03b9bda632",
+    "amount": 5000,
+    "type": "INCOME",
+    "category": "Salary",
+    "date": "2026-04-06T13:07:09.845Z",
+    "createdByUserId": "admin-1",
+    "createdAt": "2026-04-06T13:07:09.850Z",
+    "updatedAt": "2026-04-06T13:07:09.850Z"
+  }
+}
+
+3. Creating an Expense Record:
+{
+  "record": {
+    "id": "efd55dbf-f026-4507-b805-749c6d1ab040",
+    "amount": 200,
+    "type": "EXPENSE",
+    "category": "Groceries",
+    "date": "2026-04-06T13:07:09.850Z",
+    "createdByUserId": "admin-1",
+    "createdAt": "2026-04-06T13:07:09.852Z",
+    "updatedAt": "2026-04-06T13:07:09.852Z"
+  }
+}
+
+4. Updated Dashboard Summary:
+{
+  "summary": {
+    "totalIncome": 15000,
+    "totalExpense": 600,
+    "netBalance": 14400
+  },
+  "categoryWiseTotals": [
+    {
+      "category": "Salary",
+      "type": "INCOME",
+      "total": 15000
+    },
+    {
+      "category": "Groceries",
+      "type": "EXPENSE",
+      "total": 600
+    }
+  ],
+  "recentRecords": [
+    {
+      "id": "efd55dbf-f026-4507-b805-749c6d1ab040",
+      "amount": 200,
+      "type": "EXPENSE",
+      "category": "Groceries",
+      "date": "2026-04-06T13:07:09.850Z",
+      "createdByUserId": "admin-1",
+      "createdAt": "2026-04-06T13:07:09.852Z",
+      "updatedAt": "2026-04-06T13:07:09.852Z"
+    },
+    {
+      "id": "b83cf6bd-3dfb-40af-8b20-da03b9bda632",
+      "amount": 5000,
+      "type": "INCOME",
+      "category": "Salary",
+      "date": "2026-04-06T13:07:09.845Z",
+      "createdByUserId": "admin-1",
+      "createdAt": "2026-04-06T13:07:09.850Z",
+      "updatedAt": "2026-04-06T13:07:09.850Z"
+    },
+    {
+      "id": "cb8d631f-fb0e-40b4-90f9-c7ee95352161",
+      "amount": 200,
+      "type": "EXPENSE",
+      "category": "Groceries",
+      "date": "2026-04-06T13:05:39.654Z",
+      "createdByUserId": "admin-1",
+      "createdAt": "2026-04-06T13:05:39.655Z",
+      "updatedAt": "2026-04-06T13:05:39.655Z"
+    },
+    {
+      "id": "2d753409-e38c-42df-911b-401bf895ae41",
+      "amount": 5000,
+      "type": "INCOME",
+      "category": "Salary",
+      "date": "2026-04-06T13:05:39.639Z",
+      "createdByUserId": "admin-1",
+      "createdAt": "2026-04-06T13:05:39.651Z",
+      "updatedAt": "2026-04-06T13:05:39.651Z"
+    },
+    {
+      "id": "be80c2f7-4553-49f7-8ddb-25c4fdfb9867",
+      "amount": 200,
+      "type": "EXPENSE",
+      "category": "Groceries",
+      "date": "2026-04-06T13:05:28.384Z",
+      "createdByUserId": "admin-1",
+      "createdAt": "2026-04-06T13:05:28.385Z",
+      "updatedAt": "2026-04-06T13:05:28.385Z"
+    }
+  ]
+}
